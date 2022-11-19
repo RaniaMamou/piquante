@@ -1,0 +1,16 @@
+{
+  "name": "piquante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix client",
+    "server": "npm run watch --prefix server",
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
